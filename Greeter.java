@@ -8,7 +8,11 @@ public class Greeter {
 
   public Greeter(String language, String country, String name) {
     locale = new Locale(language, country);
+<<<<<<< HEAD
     this.name = name.toUpperCase();
+=======
+    this.name = "_"+name+"_";
+>>>>>>> feature-2
   }
 
   public String sayHello() {
